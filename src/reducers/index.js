@@ -1,7 +1,9 @@
 import { combineReducers } from 'redux';
+import ResourceReducer from './reducer_resources';
+//import { reducer as formReducer } from 'redux-form';
 
 const rootReducer = combineReducers({
-  state: (state = {}) => state
+  resources: ResourceReducer
 });
 
 export default rootReducer;

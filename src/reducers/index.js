@@ -4,6 +4,7 @@ import ResourceReducer from './reducer_resources';
 
 const rootReducer = combineReducers({
   resources: ResourceReducer
+
 });
 
 export default rootReducer;

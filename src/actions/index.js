@@ -7,8 +7,6 @@ export const FETCH_RESOURCES = 'FETCH_RESOURCES';
 export const FETCH_RESOURCE = 'FETCH_RESOURCE';
 
 
-
-
 var resource_types=[{name: "medical"}, {name: "legal"}, {name: "housing"}]
 
 var resources=[

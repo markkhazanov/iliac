@@ -1,1 +1,0 @@
-$("#logo").css("text-shadow", "0px 2px yellow");

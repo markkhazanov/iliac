@@ -3,11 +3,34 @@
   <head>
     <link rel="stylesheet" href="/style/style.css">
     <link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400" rel="stylesheet">
     <script src="https://maps.googleapis.com/maps/api/js"></script>
 		<script src="https://www.gstatic.com/firebasejs/3.3.0/firebase.js"></script>
+    <script src="https://cdn.jsdelivr.net/scrollreveal.js/3.2.0/scrollreveal.min.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/3.4.0/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyCd8UY6w9_pKeCHqT9iFt7RDQJvm58lixI",
+        authDomain: "iliac-57f28.firebaseapp.com",
+        databaseURL: "https://iliac-57f28.firebaseio.com",
+        storageBucket: "iliac-57f28.appspot.com",
+        messagingSenderId: "321314430827"
+      };
+      firebase.initializeApp(config);
+    </script>
+    
   </head>
   <body>
     <div class="container"></div>
+
   </body>
+
+  <script>
+    window.sr = ScrollReveal();
+    sr.reveal('.home', {duration: 5000});
+  </script>
   <script src="/bundle.js"></script>
+  <script src="./style/js/changeShadow.js"></script>
 </html>

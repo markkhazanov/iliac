@@ -3,6 +3,7 @@ import { Router, Route, IndexRoute, browserHistory } from 'react-router'
 import App from './components/app'
 
 //Pages
+import LandingPage from './pages/landing_page'
 import Home from './pages/home'
 import Process from './pages/process'
 import Resources from './pages/resources'
@@ -13,13 +14,15 @@ import Training from './pages/training'
 
 export default(
 	<Route path="/" component={App} >
-		<IndexRoute component={Home} />
-		<Route path="process" component={Process} />
-		<Route path="training" component={Training} />
-		<Route path="resources" component={Resources} />
-		<Route path="resources/:type/:id" component={ResourceShow} />
+		<IndexRoute component={LandingPage} />
+
 	</Route>
 );
+		// <IndexRoute component={Home} />
+		// <Route path="process" component={Process} />
+		// <Route path="training" component={Training} />
+		// <Route path="resources" component={Resources} />
+		// <Route path="resources/:type/:id" component={ResourceShow} />
 
 
 		// 	<Route path="process/:topicId" component={Process_Detail} />

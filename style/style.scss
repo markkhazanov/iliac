@@ -1,0 +1,83 @@
+html{
+	background-color: white;
+}
+
+.container{
+	margin: 5px;	
+
+}
+
+#l-header{
+	margin-bottom: 50px;
+}
+
+body{
+	background: url('./img/landing-page-background.jpg') no-repeat;
+	background-size: cover;
+}
+
+#logo{
+	color: white;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 40px;
+	text-shadow: 0px 2px #ff0000;
+}
+
+.text{
+	font-family: 'Lato', sans-serif;
+}
+
+p{
+	color: white;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 22px;
+	text-align: justify;
+}
+
+#text1{
+	float: left;
+	width: 100%;
+	margin-bottom: 40px;
+	p{
+		width: 40%;
+		max-width: 300px;
+		min-width: 200px;
+		float: left;
+		text-shadow: 0px 4px 7px black;
+	}
+}
+
+#text2{
+	float: right;
+	width: 100%;
+	margin-bottom: 40px;
+	p{
+		width: 40%;
+		max-width: 300px;
+		min-width: 200px;
+		float: right;
+		text-shadow: 0px 4px 7px black;
+	}
+}
+
+#features{
+	margin-bottom: 40px;
+	.feature{
+		border: 5px solid black;
+	}
+}
+
+#safety{
+	h2{
+		text-align: center;
+	}
+	margin-bottom: 40px;
+}
+
+#signup{
+	color: blue;
+	cursor: pointer;
+	cursor: hand;
+}

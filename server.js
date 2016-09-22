@@ -1,11 +1,13 @@
-var http = require('http');
-var server= http.createServer(function(req, res){
-	res.writeHead(200, {'Content-Type': 'text/html'});
-	res.end('<h1>Hello World</h1>');
+const express = require('express');
+const path = require('path');
+const port = process.env.PORT || 8080;
+const app = express();
+
+app.use(express.static(__dirname));
+
+app.get('*', (req, res) => {
+	res.sendFile(path.resolve(__dirname, 'index.html'));
 });
 
-
-
-var port = Number(process.env.PORT || 3000);
-
-server.listen(port);
+app.listen(port);
+console.log('Server started');

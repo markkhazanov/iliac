@@ -22,21 +22,27 @@ class LandingPage extends Component {
 	render(){
 		return(
 			<div className="landingPage">
-				
-				<div id="l-header">
-					<div id="logo">{'{iliac}'}</div>
-				</div>
 
-				<div className="text" id="text1">
+				<div id="info" className="row">
+					<div id="logo">{'{iliac}'}</div>
+
 					<p>
 						We’re in the business of breaking down barriers 
 						within the adult entertainment industry. Connect 
 						with directors, production studios and other performers 
 						so you can focus on creating content, not planning it.
 					</p>
+
 				</div>
-				
-				<div className="text" id="text2">
+
+				<div id="mockups" className="row">
+					<img src="../../../style/img/3-screens.png"/>
+					<p> We break down barriers and create greater 
+					efficiencies within the industry.</p>
+				</div>
+
+
+				<div id="education" className="row">
 					<p>
 						Not in the industry? We provide education and 
 						training tools to help you decide whether entering 

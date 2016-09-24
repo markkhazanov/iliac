@@ -20,6 +20,8 @@ body{
 	font-weight: 400;
 	font-size: 40px;
 	text-shadow: 0px 2px 2px black;
+	cursor: pointer;
+	cursor: hand;
 }
 
 .text{
@@ -55,13 +57,23 @@ p{
 		max-width: 500px;
 		min-width: 200px;
 		float: left;
-		text-shadow: 0px 4px 7px black;
+		text-shadow: 0px 0px 7px black;
 	}
 }
 
 #mockups{
 	background-color: white;
+
+	h2{
+		color: grey;
+		font-weight: 400;
+		text-align: center; 
+		margin-bottom: 40px;
+		margin-top: 40px;
+
+	}
 	img{
+		margin-bottom: 30px;
 		max-width: 900px;
 		height: auto;
 		text-align: center;
@@ -93,25 +105,73 @@ p{
 
 #features{
 	margin-bottom: 40px;
+
+	img{
+		margin-bottom: 40px;
+	}
+	h2{
+		color: grey;
+		font-weight: 400;
+		text-align: center;
+	}
+	h3{
+		text-align: center;
+		color: grey;
+		font-weight: 300;
+	}
 	.feature{
-		border: 5px solid black;
 		p{
-			color:black;
+			max-width: 400px;
+			color:grey;
+			font-size: 20px;
+			text-align: justify;
+			font-weight: 300;
+			line-height: 1.5;
 		}
 	}
 }
 
 #safety{
-	background: url('./img/safety.jpg') fixed no-repeat;
-	background-size: cover;
+	background-color:white;
+	color: grey;
+
 	h2{
+		color: grey;
+		font-weight: 400;
+		text-align: center; 
+		margin-bottom: 40px;
+		margin-top: 40px;
+	}
+	h3{
 		text-align: center;
+		color: grey;
+		font-weight: 300;
+	}
+
+	p{
+		max-width: 400px;
+		color:grey;
+		font-size: 20px;
+		text-align: justify;
+		font-weight: 300;
+		line-height: 1.5;
 	}
 	margin-bottom: 40px;
 }
 
+#beta{
+	background: url('./img/safety.jpg') fixed no-repeat;
+	background-size: cover;
+}
+
+#login{
+	float:right;
+	font-size: 50px;
+	color: white;
+}
+
 #signup{
-	color: blue;
+	color: lightblue;
 	cursor: pointer;
 	cursor: hand;
 }

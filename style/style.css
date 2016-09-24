@@ -13,7 +13,9 @@ html {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-size: 40px;
-  text-shadow: 0px 2px 2px black; }
+  text-shadow: 0px 2px 2px black;
+  cursor: pointer;
+  cursor: hand; }
 
 .text {
   font-family: 'Lato', sans-serif; }
@@ -44,11 +46,18 @@ p {
     max-width: 500px;
     min-width: 200px;
     float: left;
-    text-shadow: 0px 4px 7px black; }
+    text-shadow: 0px 0px 7px black; }
 
 #mockups {
   background-color: white; }
+  #mockups h2 {
+    color: grey;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 40px; }
   #mockups img {
+    margin-bottom: 30px;
     max-width: 900px;
     height: auto;
     text-align: center;
@@ -74,20 +83,57 @@ p {
 
 #features {
   margin-bottom: 40px; }
-  #features .feature {
-    border: 5px solid black; }
-    #features .feature p {
-      color: black; }
+  #features img {
+    margin-bottom: 40px; }
+  #features h2 {
+    color: grey;
+    font-weight: 400;
+    text-align: center; }
+  #features h3 {
+    text-align: center;
+    color: grey;
+    font-weight: 300; }
+  #features .feature p {
+    max-width: 400px;
+    color: grey;
+    font-size: 20px;
+    text-align: justify;
+    font-weight: 300;
+    line-height: 1.5; }
 
 #safety {
-  background: url("./img/safety.jpg") fixed no-repeat;
-  background-size: cover;
+  background-color: white;
+  color: grey;
   margin-bottom: 40px; }
   #safety h2 {
-    text-align: center; }
+    color: grey;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 40px; }
+  #safety h3 {
+    text-align: center;
+    color: grey;
+    font-weight: 300; }
+  #safety p {
+    max-width: 400px;
+    color: grey;
+    font-size: 20px;
+    text-align: justify;
+    font-weight: 300;
+    line-height: 1.5; }
+
+#beta {
+  background: url("./img/safety.jpg") fixed no-repeat;
+  background-size: cover; }
+
+#login {
+  float: right;
+  font-size: 50px;
+  color: white; }
 
 #signup {
-  color: blue;
+  color: lightblue;
   cursor: pointer;
   cursor: hand; }
 

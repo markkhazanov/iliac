@@ -5,7 +5,7 @@ const app = express();
 
 app.use(express.static(__dirname));
 
-app.get('/', (req, res) => {
+app.get('/src/pages/landing_page.js', (req, res) => {
 	res.sendFile(path.resolve(__dirname, 'index.html'));
 	console.log('returned index html');
 });

@@ -62,19 +62,22 @@ p{
 	background-color: white;
 
 	h2{
-		color: grey;
-		font-weight: 400;
+		color: black;
+		font-family: 'Cabin Sketch', cursive;
+		font-weight: 700;
 		text-align: center; 
 		margin-bottom: 40px;
 		margin-top: 40px;
 
 	}
 	img{
+		display: block;
+		margin-left:auto;
+		margin-right:auto;
 		margin-bottom: 30px;
 		max-width: 900px;
 		height: auto;
 		text-align: center;
-		margin-left: 15%;
 	}
 	p{
 		color: grey;
@@ -108,12 +111,8 @@ p{
 	img{
 		margin-bottom: 40px;
 	}
-	h2{
-		color: grey;
-		font-weight: 400;
-		text-align: center;
-	}
 	h3{
+		font-family: 'Cabin Sketch', cursive;
 		text-align: center;
 		color: grey;
 		font-weight: 300;
@@ -131,12 +130,13 @@ p{
 }
 
 #safety{
+	font-family: 'Cabin Sketch', cursive;
 	background-color:white;
 	color: grey;
-
+	margin-bottom: 40px;
 	h2{
-		color: grey;
-		font-weight: 400;
+		color: black;
+		font-weight: 700;
 		text-align: center; 
 		margin-bottom: 40px;
 		margin-top: 40px;
@@ -155,7 +155,17 @@ p{
 		font-weight: 300;
 		line-height: 1.5;
 	}
-	margin-bottom: 40px;
+	img{
+		display:block;
+		max-width: 200px;
+		margin-bottom: 30px;
+		margin-top: 30px;
+		margin-left: auto;
+		margin-right: auto;
+		float: center;
+		text-align: center;
+	}
+
 }
 
 #beta{

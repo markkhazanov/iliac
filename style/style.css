@@ -17,9 +17,6 @@ html {
   cursor: pointer;
   cursor: hand; }
 
-.text {
-  font-family: 'Lato', sans-serif; }
-
 p {
   color: white;
   font-family: 'Lato', sans-serif;
@@ -37,6 +34,7 @@ p {
   background: url("./img/info.jpg") fixed no-repeat;
   background-size: cover; }
   #info p {
+    font-family: 'Cabin Sketch', cursive;
     float: left;
     width: 100%;
     margin-bottom: 40px;
@@ -46,7 +44,7 @@ p {
     max-width: 500px;
     min-width: 200px;
     float: left;
-    text-shadow: 0px 0px 7px black; }
+    text-shadow: 0px 2px 7px black; }
 
 #mockups {
   background-color: white; }
@@ -70,6 +68,7 @@ p {
   background: url("./img/education.jpg") fixed no-repeat;
   background-size: cover; }
   #education p {
+    font-family: 'Cabin Sketch', cursive;
     float: right;
     width: 100%;
     margin-bottom: 40px;
@@ -128,6 +127,8 @@ p {
   background-size: cover; }
 
 #login {
+  margin-top: 200px;
+  font-family: 'Cabin Sketch', cursive;
   float: right;
   font-size: 50px;
   color: white; }
@@ -135,6 +136,7 @@ p {
 #signup {
   color: lightblue;
   cursor: pointer;
-  cursor: hand; }
+  cursor: hand;
+  text-shadow: 0px 4px 7px black; }
 
 /*# sourceMappingURL=style.css.map */

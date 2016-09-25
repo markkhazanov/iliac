@@ -97,6 +97,7 @@ class LandingPage extends Component {
 					<h2>How do we keep you safe?</h2>
 					<div className="col-md-3">
 						<h3>Information</h3>
+						<img src="../../../style/img/banana.png"/>
 						<p>
 							We will never force you to input information
 							 that you are uncomfortable sharing. Even your 
@@ -107,6 +108,7 @@ class LandingPage extends Component {
 					
 					<div className="col-md-3">
 						<h3>Reporting</h3>
+						<img src="../../../style/img/donut.png"/>
 						<p>
 							If there’s ever a problem on or off set you 
 							can file an anonymous claim that will be forwarded 
@@ -118,6 +120,7 @@ class LandingPage extends Component {
 					
 					<div className="col-md-3">
 						<h3>Transparency</h3>
+						<img src="../../../style/img/peach.png"/>
 						<p>
 							We provide you with studio terms and conditions 
 							before you step on set. Greater transparency means 
@@ -128,6 +131,7 @@ class LandingPage extends Component {
 					
 					<div className="col-md-3">
 						<h3>Resources</h3>
+						<img src="../../../style/img/papaya.png"/>
 						<p>
 							Our resources information will guide you in 
 							finding doctors, lawyers, and even financial 

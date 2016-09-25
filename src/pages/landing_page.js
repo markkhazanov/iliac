@@ -41,11 +41,12 @@ class LandingPage extends Component {
 
 				</div>
 
+
 				<div id="mockups" className="row">
 					<h2>How Iliac transforms your flow</h2>
 
 					<div id="features"> 
-						<div id="box1" className="feature col-md-4">
+						<div id="box1" className="feature col-xs-12 col-md-4">
 							<img src="../../../style/img/project.png"/>
 							<h3>Projects</h3>
 							<p>
@@ -56,7 +57,7 @@ class LandingPage extends Component {
 							</p>
 						</div>
 
-						<div id="box2" className="feature col-md-4">
+						<div id="box2" className="feature col-xs-12 col-md-4">
 							<img src="../../../style/img/jobs-feed.png"/>
 							<h3>Jobs Feed</h3>
 							<p>
@@ -68,7 +69,7 @@ class LandingPage extends Component {
 							</p>
 						</div>
 						
-						<div id="box3" className="feature col-md-4">
+						<div id="box3" className="feature col-xs-12 col-md-4">
 							<img src="../../../style/img/paypal.png"/>
 							<h3>Payments</h3>
 							<p>
@@ -77,7 +78,6 @@ class LandingPage extends Component {
 							</p>
 						</div>
 					</div>
-
 				</div>
 
 
@@ -95,7 +95,7 @@ class LandingPage extends Component {
 
 				<div id="safety" className="row">
 					<h2>How do we keep you safe?</h2>
-					<div className="col-md-3">
+					<div className="col-xs-12 col-md-3">
 						<h3>Information</h3>
 						<img src="../../../style/img/banana.png"/>
 						<p>
@@ -106,7 +106,7 @@ class LandingPage extends Component {
 						</p>
 					</div>
 					
-					<div className="col-md-3">
+					<div className="col-xs-12 col-md-3">
 						<h3>Reporting</h3>
 						<img src="../../../style/img/donut.png"/>
 						<p>
@@ -118,7 +118,7 @@ class LandingPage extends Component {
 						</p>
 					</div>
 					
-					<div className="col-md-3">
+					<div className="col-xs-12 col-md-3">
 						<h3>Transparency</h3>
 						<img src="../../../style/img/peach.png"/>
 						<p>
@@ -129,7 +129,7 @@ class LandingPage extends Component {
 						</p>
 					</div>
 					
-					<div className="col-md-3">
+					<div className="col-xs-12 col-md-3">
 						<h3>Resources</h3>
 						<img src="../../../style/img/papaya.png"/>
 						<p>
@@ -144,11 +144,8 @@ class LandingPage extends Component {
 				<div id="beta" className="row">
 
 					<div id="login"><Login /></div>
-
+					<div id="space"></div>
 				</div>
-
-				<hr/>
-				<div id="l-footer">Footer</div>
 			</div>
 		);
 	}

@@ -23,6 +23,9 @@ class LandingPage extends Component {
     sr.reveal('p', {duration: 2000});
 
     $('#mockups').parallax({imageSrc: 'img/info.jpg'});
+
+    sr.reveal('#login', {duration: 2000})
+    $('#mockups').parallax({imageSrc: '../../../style/img/info.jpg'});
 	}
 
 	render(){

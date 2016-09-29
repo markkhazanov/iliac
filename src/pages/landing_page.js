@@ -6,15 +6,11 @@ import Login from '../components/login';
 class LandingPage extends Component {
 	componentWillMount() {
 		const scrollReveal = document.createElement("scrollReveal");
-		const parallax = document.createElement("parallax");
 
     scrollReveal.src = "https://cdn.jsdelivr.net/scrollreveal.js/3.2.0/scrollreveal.min.js";
     scrollReveal.async = true;
-    parallax.src = "/js/parallax.js"
-    parallax.async = true;
 
     document.body.appendChild(scrollReveal);
-    document.body.appendChild(parallax);
 
 	}
 
@@ -22,10 +18,7 @@ class LandingPage extends Component {
 		window.sr = ScrollReveal();
     sr.reveal('p', {duration: 2000});
 
-    $('#mockups').parallax({imageSrc: 'img/info.jpg'});
-
     sr.reveal('#login', {duration: 2000})
-    $('#mockups').parallax({imageSrc: '../../../style/img/info.jpg'});
 	}
 
 	render(){

@@ -47,7 +47,7 @@ p{
 }
 
 #info{
-	background: url('./img/info.jpg') center center fixed no-repeat;
+	background: url('../img/info.jpg') center center fixed no-repeat;
 	background-size: cover;
 	p{
 		font-family: 'Cabin Sketch', cursive;
@@ -129,7 +129,7 @@ p{
 
 
 #education{
-	background: url('./img/education.jpg') center center fixed no-repeat;
+	background: url('../img/education.jpg') center center fixed no-repeat;
 	background-size: cover;
 	p{
 		font-family: 'Cabin Sketch', cursive;
@@ -198,7 +198,7 @@ p{
 }
 
 #beta{
-	background: url('./img/safety.jpg') center center fixed no-repeat;
+	background: url('../img/safety.jpg') center center fixed no-repeat;
 	background-size: cover;
 	margin-bottom: 0px;
 	@media screen and (max-device-width: 500px){

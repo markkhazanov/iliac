@@ -33,7 +33,7 @@ p {
   line-height: 2; }
 
 #info {
-  background: url("./img/info.jpg") center center fixed no-repeat;
+  background: url("../img/info.jpg") center center fixed no-repeat;
   background-size: cover; }
   #info p {
     font-family: 'Cabin Sketch', cursive;
@@ -97,7 +97,7 @@ p {
     line-height: 1.5; }
 
 #education {
-  background: url("./img/education.jpg") center center fixed no-repeat;
+  background: url("../img/education.jpg") center center fixed no-repeat;
   background-size: cover; }
   #education p {
     font-family: 'Cabin Sketch', cursive;
@@ -154,7 +154,7 @@ p {
     text-align: center; }
 
 #beta {
-  background: url("./img/safety.jpg") center center fixed no-repeat;
+  background: url("../img/safety.jpg") center center fixed no-repeat;
   background-size: cover;
   margin-bottom: 0px; }
   @media screen and (max-device-width: 500px) {

@@ -9,8 +9,8 @@ html {
   color: #39faf2;
   font-family: 'Lato', sans-serif;
   font-weight: 400;
-  font-size: 40px;
-  text-shadow: 0px 2px 8px black;
+  font-size: 50px;
+  text-shadow: 0px 2px 1px black;
   cursor: pointer;
   cursor: hand; }
   @media screen and (max-device-width: 500px) {
@@ -159,7 +159,7 @@ p {
   margin-bottom: 0px; }
   @media screen and (max-device-width: 500px) {
     #beta #space {
-      min-height: 1500px; } }
+      min-height: 1200px; } }
 
 #login {
   margin-top: 200px;
@@ -173,9 +173,10 @@ p {
       display: block;
       margin-right: auto;
       margin-left: auto;
-      text-align: center; }
+      text-align: center;
+      font-size: 100px; }
       #login p {
-        font-size: 100px; } }
+        font-size: 300px; } }
 
 #signup {
   color: lightblue;

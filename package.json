@@ -11,9 +11,7 @@
     "node": "4.1.1"
   },
   "scripts": {
-    "clean": "rimraf dist",
-    "build:webpack": "NODE_ENV=production webpack --config webpack.config.prod.js",
-    "build": "npm run clean && npm run build:webpack",
+    "build": "NODE_ENV=production webpack --config webpack.config.prod.js",
     "start": "node index.js",
     "lint": "eslint src",
     "heroku-postbuild": "npm run build"

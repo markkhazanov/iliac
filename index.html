@@ -6,6 +6,17 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+      $(".loader").fadeOut("slow");
+    })
+    </script>
+
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+
     <script src="https://cdn.jsdelivr.net/scrollreveal.js/3.2.0/scrollreveal.min.js"></script>
     <style>
       .sr p{ visibility: hidden;}
@@ -41,6 +52,7 @@
   </head>
   
   <body>
+    <div class="loader"></div>
     <div class="box"></div>
 
   </body>
@@ -48,6 +60,7 @@
   <script>
     window.sr = ScrollReveal();
     sr.reveal('p', {duration: 5000});
+    console.log("scroll revealing");
   </script>
   <script src="/static/bundle.js"></script>
 </html>

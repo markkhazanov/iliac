@@ -24,9 +24,10 @@ html {
   cursor: hand; }
   @media screen and (max-device-width: 500px) {
     #logo {
+      color: #39faf2;
       font-size: 300px;
       text-align: center;
-      color: white; } }
+      text-shadow: 0px 4px 5px black; } }
 
 p {
   color: white;
@@ -168,7 +169,7 @@ p {
   margin-bottom: 0px; }
   @media screen and (max-device-width: 500px) {
     #beta #space {
-      min-height: 1200px; } }
+      min-height: 1000px; } }
 
 #login {
   margin-top: 200px;

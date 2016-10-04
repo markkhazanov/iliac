@@ -84,7 +84,7 @@ class LandingPage extends Component {
 						is right for you. Our education suite was created
 						with the help of APAC, the FSC, and Kink.com so you
 						can be sure the information you're getting is accurate
-						and informative.'
+						and informative.
 					</p>
 				</div>
 
